@@ -27,5 +27,9 @@
   "sunset-party.png": {
     "source": "https://static.showit.com/800/TmNTTW_LjMXObPBw0jzcsQ/344291/luna_s_sunset_first_birthday_party.png",
     "use": "Existing client website image. Illustrative celebration, not a verified portfolio commission; original provenance unverified."
+  },
+  "wordmark-no-tagline.svg": {
+    "source": "wordmark.svg",
+    "note": "User-approved derivative of the existing vector logo: tagline path removed and canvas cropped. Lettering retained; no font substitution."
   }
 }

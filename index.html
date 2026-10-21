@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Private concierge, lifestyle assistance and thoughtful experiences in Harbor Country. A more intentional way to live, stay, and celebrate.">
+  <meta name="theme-color" content="#e7def0">
+  <title>The Confetti Way — Consider it handled.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/prata.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/manrope.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+    <symbol id="spark" viewBox="0 0 40 40"><path d="M20 1c0 12 7 19 19 19-12 0-19 7-19 19C20 27 13 20 1 20 13 20 20 13 20 1Z"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="The Confetti Way home"><img src="assets/wordmark.svg" width="182" height="104" alt="The Confetti Way — Celebrate life intentionally"></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#concierge">Concierge</a><a href="#experiences">Experiences</a><a href="#about">Meet Lea</a><a href="#journal">The Journal</a>
+    </nav>
+    <a class="button header-cta" href="#plan">Let’s make a plan <svg><use href="#arrow"/></svg></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#concierge">Concierge</a><a href="#experiences">Experiences</a><a href="#about">Meet Lea</a><a href="#journal">The Journal</a><a href="#plan">Let’s make a plan</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-main wrap">
+        <div class="hero-copy">
+          <h1 id="hero-title">Less planning.<br><span>More living.</span></h1>
+          <p class="hero-offering">Private Concierge <span aria-hidden="true">/</span> Lifestyle <span aria-hidden="true">/</span> Experiences</p>
+          <p class="hero-description">A more intentional way to live, stay, and celebrate.<br class="desktop-break"> We bring the details together. You enjoy the moment.</p>
+          <div class="hero-actions"><a class="button" href="#plan">Consider it handled <svg><use href="#arrow"/></svg></a><a class="text-link" href="#concierge">Find your kind of effortless</a></div>
+          <p class="hero-location"><span class="location-dot" aria-hidden="true"></span>Rooted in Harbor Country, Michigan.</p>
+        </div>
+        <figure class="hero-photo">
+          <div class="daughter-photo"><img src="assets/lake-moment.png" width="800" height="960" alt="A sunlit moment on the lake, looking out from the bow of a boat" fetchpriority="high"></div>
+          <figcaption>A little more time for moments like this.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="concierge" class="services section wrap" aria-labelledby="services-heading">
+      <div class="section-heading"><h2 id="services-heading">Your time.<br>Beautifully taken care of.</h2><p>From the first arrival to the final toast,<br>thoughtful details make all the difference.</p></div>
+      <div class="service-tabs" role="tablist" aria-label="Explore concierge services"><button role="tab" id="tab-arrival" aria-selected="true" aria-controls="panel-arrival" tabindex="0">Arrive & unwind</button><button role="tab" id="tab-explore" aria-selected="false" aria-controls="panel-explore" tabindex="-1">Explore & experience</button><button role="tab" id="tab-celebrate" aria-selected="false" aria-controls="panel-celebrate" tabindex="-1">Make it a celebration</button><button role="tab" id="tab-everyday" aria-selected="false" aria-controls="panel-everyday" tabindex="-1">Everyday, elevated</button></div>
+      <div class="service-panel" role="tabpanel" id="panel-arrival" aria-labelledby="tab-arrival" tabindex="0">
+        <div class="service-photo"><img src="assets/arrival.jpg" width="1200" height="900" loading="lazy" alt="A welcoming basket prepared with thoughtful local touches"></div>
+        <div class="service-copy"><h3>Arrive. Exhale.<br>You’re already home.</h3><p>The fridge is stocked. The welcome is personal. Your time away starts the moment you walk in.</p><ul><li>Grocery stocking & local deliveries</li><li>Thoughtful welcome baskets</li><li>Vacation rental arrival touches</li></ul><a class="text-link" href="#plan" data-service="Arrival & stay">Plan my arrival <svg><use href="#arrow"/></svg></a></div>
+      </div>
+      <div class="service-panel" role="tabpanel" id="panel-explore" aria-labelledby="tab-explore" tabindex="0" hidden>
+        <div class="service-photo"><img src="assets/lake.jpg" width="2200" height="1467" loading="lazy" alt="The Lake Michigan shoreline, with space to explore and unwind"></div>
+        <div class="service-copy"><h3>The places.<br>The people. The feeling.</h3><p>Discover Harbor Country with someone who calls it home. Your people, your pace, your kind of day.</p><ul><li>Personalized local recommendations</li><li>Dining & reservation coordination</li><li>Thoughtfully planned days out</li></ul><a class="text-link" href="#plan" data-service="Local experiences">Plan my experience <svg><use href="#arrow"/></svg></a></div>
+      </div>
+      <div class="service-panel" role="tabpanel" id="panel-celebrate" aria-labelledby="tab-celebrate" tabindex="0" hidden>
+        <div class="service-photo"><img src="assets/celebrate.png" width="800" height="533" loading="lazy" alt="A festive lakeside table with thoughtful celebration details"></div>
+        <div class="service-copy"><h3>You bring the people.<br>We bring it to life.</h3><p>A birthday, a girls’ weekend, or simply a reason to gather. Let’s make it feel like you.</p><ul><li>Private celebrations & intimate gatherings</li><li>Girls’ weekends & milestone moments</li><li>Personalized styling & creative details</li></ul><a class="text-link" href="#plan" data-service="Private celebration">Plan my celebration <svg><use href="#arrow"/></svg></a></div>
+      </div>
+      <div class="service-panel" role="tabpanel" id="panel-everyday" aria-labelledby="tab-everyday" tabindex="0" hidden>
+        <div class="service-photo"><img src="assets/lake.jpg" width="2200" height="1467" loading="lazy" alt="A quiet lakeside moment with room to slow down"></div>
+        <div class="service-copy"><h3>A little less to do.<br>A little more for you.</h3><p>Personalized lifestyle assistance for the everyday details. More room for whatever matters to you.</p><ul><li>Local errands & thoughtful deliveries</li><li>Lifestyle planning & coordination</li><li>Personal touches for days that matter</li></ul><a class="text-link" href="#plan" data-service="Everyday assistance">Make everyday easier <svg><use href="#arrow"/></svg></a></div>
+      </div>
+    </section>
+
+    <section id="experiences" class="experience" aria-labelledby="experience-heading"><div class="experience-image"><img src="assets/celebrate.png" width="800" height="533" loading="lazy" alt="Golden light falling across a celebration table by the water"></div><div class="experience-copy"><h2 id="experience-heading">Ordinary moments.<br><em>Extraordinary</em><br>possibilities.</h2><p>Local knowledge. Trusted connections.<br>A little creative magic.</p><a class="button button-light" href="#plan" data-service="Private celebration">Make a moment of it <svg><use href="#arrow"/></svg></a></div></section>
+
+    <section id="about" class="about section wrap" aria-labelledby="about-heading"><div class="about-photo"><div class="lea-photo"><img src="assets/lea.png" width="800" height="1000" loading="lazy" alt="Lea Grzywacz, founder of The Confetti Way"></div><span class="photo-note">Your local, in your corner.</span></div><div class="about-copy"><h2 id="about-heading">A local connection.<br>A personal touch.</h2><p>I’m Lea, the person behind the plans. I bring local knowledge, trusted connections, and a genuine love of making life feel a little more special.</p><p>One point of contact. Thoughtful execution.<br>Consider it handled.</p><a class="text-link" href="https://theconfettiway.com/about">A little more about me <svg><use href="#arrow"/></svg></a><p class="signature">Lea</p><p class="founder-caption">Founder, The Confetti Way</p></div></section>
+
+    <section id="owners" class="owners"><div class="wrap owners-inner"><h2>A better welcome.<br>A lasting impression.</h2><div><p>For vacation rental owners and local businesses: thoughtful guest experiences and meaningful local connections.</p><a class="text-link" href="#plan" data-service="Owner or business partnership">Let’s work together <svg><use href="#arrow"/></svg></a></div></div></section>
+
+    <section id="journal" class="journal section wrap" aria-labelledby="journal-heading"><div class="section-heading"><h2 id="journal-heading">A little local.<br>A little lovely.</h2><div><p>People, places, and more reasons to celebrate.</p><a class="text-link" href="https://substack.com/@aftertheconfetti" target="_blank" rel="noopener">Explore the journal <svg><use href="#arrow-up"/></svg></a></div></div><div class="journal-grid"><a class="journal-story" href="https://substack.com/@aftertheconfetti" target="_blank" rel="noopener"><div class="journal-image"><img src="assets/lake.jpg" width="2200" height="1467" loading="lazy" alt="A quiet Lake Michigan shoreline in soft evening light"></div><div class="journal-caption"><h3>Explore local inspiration</h3><svg><use href="#arrow-up"/></svg></div><p>Find your next little escape in the journal.</p></a><a class="journal-story" href="https://substack.com/@aftertheconfetti" target="_blank" rel="noopener"><div class="journal-image"><img src="assets/sunset-party.png" width="800" height="600" loading="lazy" alt="A cheerful garden celebration at sunset"></div><div class="journal-caption"><h3>Explore celebration stories</h3><svg><use href="#arrow-up"/></svg></div><p>Stories about living and celebrating intentionally.</p></a></div></section>
+
+    <section id="plan" class="planning" aria-labelledby="planning-heading"><div class="wrap planning-inner"><div class="planning-intro"><svg class="planning-spark" aria-hidden="true"><use href="#spark"/></svg><h2 id="planning-heading">Tell us the plan.<br>Or just the possibility.</h2><p>Your stay, your celebration, your everyday.<br>Let’s make it feel effortless.</p><a class="text-link" href="tel:+17082045324">Prefer a conversation? 708 204 5324</a></div><form id="planning-form"><div class="form-grid"><div class="field"><label for="full-name">Your name <span>(required)</span></label><input id="full-name" name="name" autocomplete="name" placeholder="First and last name" required maxlength="100"></div><div class="field"><label for="email">Email address <span>(required)</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="180"></div><div class="field"><label for="service">What can we help with?</label><select id="service" name="service"><option value="">Let’s figure it out together</option>Arrival & stay</option><option>Local experiences</option><option>Private celebration</option><option>Everyday assistance</option><option>Owner or business partnership</option></select></div><div class="field"><label for="date">Have a date in mind? <span>(optional)</span></label><input type="date" id="date" name="date"></div><div class="field field-wide"><label for="details">A little about what you’re imagining <span>(optional)</span></label><textarea id="details" name="details" rows="2" maxlength="3000" placeholder="Your people, your plans, your little wish list…"></textarea></div></div><button class="button" type="submit">Prepare my enquiry <svg><use href="#arrow"/></svg></button><p class="form-note">We’ll prepare an email for you to review and send. All plans are personal; availability is confirmed together.</p><div class="enquiry-result" id="enquiry-result" role="status" tabindex="-1" hidden><h3>Your enquiry is ready.</h3><p>Review the details below, then open your email app to send it to Lea. Nothing has been sent yet.</p><div id="enquiry-summary"></div><a id="send-enquiry" class="button" href="mailto:lea@theconfettiway.com">Open email to send <svg><use href="#arrow"/></svg></a><p class="form-note">No email app? Use the <a href="https://theconfettiway.com/contact" target="_blank" rel="noopener">contact page</a> or call <a href="tel:+17082045324">708 204 5324</a>.</p></div></form></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand footer-brand" href="#" aria-label="The Confetti Way home"><img src="assets/wordmark.svg" width="224" height="128" loading="lazy" alt="The Confetti Way — Celebrate life intentionally"></a><p>A more intentional way to<br>live, stay, and celebrate.</p><div class="footer-links"><a href="#concierge">Concierge</a><a href="https://theconfettiway.com/our-work">Lifestyle & partnerships</a><a href="https://substack.com/@aftertheconfetti" target="_blank" rel="noopener">Stories & the journal</a><a href="#plan">Get in touch</a></div></div><div class="wrap footer-bottom"><span>© 2026 The Confetti Way® LLC</span><span>Harbor Country, Michigan</span><a href="#">Back to the good stuff <svg><use href="#arrow-up"/></svg></a></div></footer>
+</body>
+</html>
